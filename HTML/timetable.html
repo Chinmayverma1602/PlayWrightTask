@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+</head>
+<body>
+    <h1>Class Timetable</h1>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td>Mathematics</td>
+                <td>English</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Geography</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 11:00 AM</td>
+                <td>English</td>
+                <td>Science</td>
+                <td>Mathematics</td>
+                <td>Geography</td>
+                <td>History</td>
+            </tr>
+            <tr>
+                <td>11:00 AM - 12:00 PM</td>
+                <td colspan="2">Assembly</td>
+                <td>Physical Education</td>
+                <td>Art</td>
+                <td>Music</td>
+            </tr>
+            <tr>
+                <td>12:00 PM - 1:00 PM</td>
+                <td>History</td>
+                <td>Geography</td>
+                <td>English</td>
+                <td>Mathematics</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>1:00 PM - 2:00 PM</td>
+                <td colspan="5">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>2:00 PM - 3:00 PM</td>
+                <td>Science</td>
+                <td>Mathematics</td>
+                <td>Geography</td>
+                <td>Science</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>3:00 PM - 4:00 PM</td>
+                <td rowspan="2">Computer Lab</td>
+                <td>History</td>
+                <td>Art</td>
+                <td rowspan="2">Computer Lab</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <td>4:00 PM - 5:00 PM</td>
+                <td>Physical Education</td>
+                <td>Music</td>
+                <td>History</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <h2>Legend</h2>
+    <ul>
+        <li><strong>colspan</strong> - Used for Assembly (spans 2 columns) and Lunch Break (spans 5 columns)</li>
+        <li><strong>rowspan</strong> - Used for Computer Lab sessions (spans 2 rows)</li>
+    </ul>
+</body>
+</html>
